@@ -1,0 +1,25 @@
+.fa-heart{
+	color: #e74c3c;
+}
+.fa-comment{
+	color: #27ae60;
+}
+
+.facebook-panel{
+	background-color: #2980b9;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 20px;
+}
+
+.details{
+	color: black;
+}
+div.details a{
+	color: #2ecc71;
+}
+
+div p{
+	color: black;
+}

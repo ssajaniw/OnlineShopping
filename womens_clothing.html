@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="faviconll.ico">
+    
+    <title>Online shopping</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+    <!-- <link rel="stylesheet" href="portfolio.css"> -->
+    <link href="fonts/css/font-awesome.css" rel="stylesheet" />
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <script type="text/javascript" src="js/wow.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/parallax.js"></script>
+
+    <script type="text/javascript" src="js/scrollTo.js"></script>
+    <script type="text/javascript" src="js/nicescroll.js"></script>
+    
+
+  </head>
+  <body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container-fluid uptop" id="point">
+      
+      <nav class="navbar-text navbar-right">
+        <ul class="list-unstyled">
+        
+          <li>
+          <a href="#register" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>Register</a>
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-sm" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Register here</h4>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="username" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control" name="password" placeholder="Password">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Submit</button>
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </li>
+          <li><a href="#login" data-toggle="modal" data-target="#myModal1"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Login</a>
+
+          <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-sm" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Login</h4>
+                </div>
+                <div class="modal-body">
+                  <form class="form-horizontal">
+                    <div class="form-group">
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" name="username" placeholder="Username">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-10">
+                        <input type="password" class="form-control" name="password" placeholder="Password">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox"> Remember me
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-success">Sign in</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+<!-- navbar -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+            
+                <li><a href="home.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="portfolio.html #about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul>
+            	<li>
+            		<div class="col-md-4">
+					    <div class="input-group">
+					      <input type="text" class="form-control" placeholder="Search...">
+					      <span class="input-group-btn">
+					        <button class="btn btn-success" type="button"><i class="glyphicon glyphicon-search"></i></button>
+					      </span>
+					    </div><!-- /input-group -->
+					  </div><!-- /.col-lg-6 -->
+            	</li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3 col-xs-12 ek">
+      <div class="menu" class="nav-collapse">
+        <ul class="nav nav-pills nav-stacked toolgroup sidebar-menu" id="nav-accordion">
+          <li role="presentation" class="sidehead animated wow fadeInDown"><a href="home.html">Home Products</a></li>
+          <li role="presentation"><a href="#"><i class="fa fa-shopping-cart second"></i>Clothing<i class="glyphicon glyphicon-menu-right"></i></a>
+            <ul>
+                  <li><a href="womens_clothing.html">Women's Clothing</a>
+                  <li><a href="">Women's Accessories</a></li>
+                  <li><a href="">Men's Clothing</a></li>
+                  <li><a href="">Men's Accesories</a></li>
+                  <li><a href="">Kid's Accesories</a></li>
+                  
+                  </li>
+              </ul>
+          </li>
+          <li role="presentation"><a href="#"><i class="fa fa-bolt second"></i>Footwear<i class="glyphicon glyphicon-menu-right"></i></a>
+            <ul>
+                  <li><a href="">Women's Shoes</a></li>
+                  <li><a href="">Men's Shoes</a></li>
+                  <li><a href="">Kids shoes</a></li> 
+              </ul>
+          </li>
+          <li role="presentation"><a href="#"><i class="glyphicon glyphicon-phone second"></i>Mobile Phones<i class="glyphicon glyphicon-menu-right"></i></a>
+              <ul>
+                  <li><a href="">iPhone</a></li>
+                  <li><a href="">Other Brands</a></li>
+                  <li><a href="">Mobile Accessories</a></li> 
+              </ul>
+          </li>
+          <li role="presentation"><a href="#"><i class="fa fa-desktop second"></i>Computers<i class="glyphicon glyphicon-menu-right"></i></a>
+              <ul>
+                  <li><a href="">Desktop</a></li>
+                  <li><a href="">Laptop</a></li>
+                  <li><a href="">Tablets</a></li> 
+                  <li><a href="">Software</a></li> 
+                  <li><a href="">Computer Accessories</a></li> 
+              </ul>
+          </li>
+          <li role="presentation"><a href="#"><i class="fa fa-camera-retro second"></i>Electronics<i class="glyphicon glyphicon-menu-right"></i></a>
+              <ul>
+                  <li><a href="">Cameras</a></li>
+                  <li><a href="">Audio</a></li>
+                  <li><a href="">TV</a></li> 
+                  <li><a href="">Gaming</a></li> 
+                  <li><a href="">Other Electronics</a></li> 
+              </ul>
+          </li>
+          <li role="presentation"><a href="#"><i class="fa fa-dribbble second"></i>Sports<i class="glyphicon glyphicon-menu-right"></i></a>
+              <ul>
+                  <li><a href="">Football</a></li>
+                  <li><a href="">Basketball</a></li>
+                  <li><a href="">Tennis</a></li> 
+                  <li><a href="">Cycling</a></li> 
+                  <li><a href="">Other</a></li> 
+              </ul>
+          </li>
+          <li role="presentation"><a href="#">Others<i class="glyphicon glyphicon-menu-right"></i></a>
+              <ul>
+                  <li><a href="">Collectibles</a></li>
+                  <li><a href="">Gifts</a></li>
+                  <li><a href="">Everything Else</a></li> 
+              </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-9 col-xs-12">
+        <h3 class="wow flipInY" data-wow-delay=".3s" style="color: #1abc9c;">TOP PRODUCTS</h3>
+        <div class="container" id="women_coll">
+          <div class="row">
+            <div class="col-md-3 col-xs-6">
+              <img src="img/womenoutfit1.jpg" alt="Blue short Chiffon" id="women">
+              <button class="btn btn-default nemow">Blue short Chiffon</button>
+              <button type="submit" class="btn btn-warning nem" data-toggle="modal" data-target="#order1">Order Now</button>
+              <!-- Modal -->
+              <div class="modal fade" id="order1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Blue short Chiffon</h4>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          Quantity:<select name="dropdown" id="#">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          Price: Rs 3,500
+                        </div>
+                        <div class="form-group">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="form-group">
+                          Shipping Location:<input type="text" class="form-control" name="location" placeholder="Location ? eg: YTS,kamaladi opposite of Grand Bank">
+                        </div>
+                        <div class="form-group">
+                          Contact:<input type="text" class="form-control" name="contact" placeholder="Contact no.">
+                        </div>
+                        <div class="form-group">
+                          Payment: Cash-on-delivery
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Order</button>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <img src="img/womenoutfit2.jpg" alt="Purple-Black Dress" id="women">
+              <button class="btn btn-default nemow">Purple-Black Dress</button>
+              <button type="submit" class="btn btn-warning nem" data-toggle="modal" data-target="#order2">Order Now</button>
+              <!-- Modal -->
+              <div class="modal fade" id="order2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Purple_Black Dress</h4>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          Quantity:<select name="dropdown" id="#">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          Price: Rs 3,000
+                        </div>
+                        <div class="form-group">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="form-group">
+                          Shipping Location:<input type="text" class="form-control" name="location" placeholder="Location ? eg: YTS,kamaladi opposite of Grand Bank">
+                        </div>
+                        <div class="form-group">
+                          Contact:<input type="text" class="form-control" name="contact" placeholder="Contact no.">
+                        </div>
+                        <div class="form-group">
+                          Payment: Cash-on-delivery
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Order</button>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <img src="img/womenoutfit3.jpg" alt="Black & Gold Dress" id="women">
+              <button class="btn btn-default nemow">Black & Gold Dress</button>
+              <button type="submit" class="btn btn-warning nem" data-toggle="modal" data-target="#order3">Order Now</button>
+              <!-- Modal -->
+              <div class="modal fade" id="order3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Black & Gold Dress</h4>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          Quantity:<select name="dropdown" id="#">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          Price: Rs 4,000
+                        </div>
+                        <div class="form-group">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="form-group">
+                          Shipping Location:<input type="text" class="form-control" name="location" placeholder="Location ? ">
+                        </div>
+                        <div class="form-group">
+                          Contact:<input type="text" class="form-control" name="contact" placeholder="Contact no.">
+                        </div>
+                        <div class="form-group">
+                          Payment: Cash-on-delivery
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Order</button>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <img src="img/womenoutfit4.jpg" alt="Bridesmaid white" id="women">
+              <button class="btn btn-default nemow">Bridesmaid white</button>
+              <button type="submit" class="btn btn-warning nem" data-toggle="modal" data-target="#order4">Order Now</button>
+              <!-- Modal -->
+              <div class="modal fade" id="order4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Bridesmaid white</h4>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          Quantity:<select name="dropdown" id="#">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          Price: Rs 5,500
+                        </div>
+                        <div class="form-group">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="form-group">
+                          Shipping Location:<input type="text" class="form-control" name="location" placeholder="Location ? ">
+                        </div>
+                        <div class="form-group">
+                          Contact:<input type="text" class="form-control" name="contact" placeholder="Contact no.">
+                        </div>
+                        <div class="form-group">
+                          Payment: Cash-on-delivery
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Order</button>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 col-xs-6">
+              <img src="img/womenoutfit5.jpg" alt="Sleveless long chiffon" id="women">
+              <button class="btn btn-default nemow">Sleveless long chiffon</button>
+              <button type="submit" class="btn btn-warning nem" data-toggle="modal" data-target="#order5">Order Now</button>
+              <!-- Modal -->
+              <div class="modal fade" id="order5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Sleveless long chiffon</h4>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          Quantity:<select name="dropdown" id="#">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          Price: Rs 4,500
+                        </div>
+                        <div class="form-group">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="form-group">
+                          Shipping Location:<input type="text" class="form-control" name="location" placeholder="Location ? ">
+                        </div>
+                        <div class="form-group">
+                          Contact:<input type="text" class="form-control" name="contact" placeholder="Contact no.">
+                        </div>
+                        <div class="form-group">
+                          Payment: Cash-on-delivery
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Order</button>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <img src="img/womenoutfit6.jpg" alt="simple gray outer" id="women">
+              <button class="btn btn-default nemow">simple gray outer</button>
+              <button type="submit" class="btn btn-warning nem" data-toggle="modal" data-target="#order6">Order Now</button>
+              <!-- Modal -->
+              <div class="modal fade" id="order6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">simple gray outer</h4>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          Quantity:<select name="dropdown" id="#">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          Price: Rs 2,500
+                        </div>
+                        <div class="form-group">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="form-group">
+                          Shipping Location:<input type="text" class="form-control" name="location" placeholder="Location ? ">
+                        </div>
+                        <div class="form-group">
+                          Contact:<input type="text" class="form-control" name="contact" placeholder="Contact no.">
+                        </div>
+                        <div class="form-group">
+                          Payment: Cash-on-delivery
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Order</button>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <img src="img/womenoutfit7.jpg" alt="korean long sweater" id="women">
+              <button class="btn btn-default nemow">korean long sweater</button>
+              <button type="submit" class="btn btn-warning nem" data-toggle="modal" data-target="#order7">Order Now</button>
+              <!-- Modal -->
+              <div class="modal fade" id="order7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">korean long sweater</h4>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          Quantity:<select name="dropdown" id="#">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          Price: Rs 2,500
+                        </div>
+                        <div class="form-group">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="form-group">
+                          Shipping Location:<input type="text" class="form-control" name="location" placeholder="Location ? ">
+                        </div>
+                        <div class="form-group">
+                          Contact:<input type="text" class="form-control" name="contact" placeholder="Contact no.">
+                        </div>
+                        <div class="form-group">
+                          Payment: Cash-on-delivery
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Order</button>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <img src="img/womenoutfit8.jpg" alt="Batman printed piece" id="women">
+              <button class="btn btn-default nemow">Batman printed piece</button>
+              <button type="submit" class="btn btn-warning nem"  data-toggle="modal" data-target="#order8">Order Now</button>
+              <!-- Modal -->
+              <div class="modal fade" id="order8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Batman printed piece</h4>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          Quantity:<select name="dropdown" id="#">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          Price: Rs 2,000
+                        </div>
+                        <div class="form-group">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="form-group">
+                          Shipping Location:<input type="text" class="form-control" name="location" placeholder="Location ? ">
+                        </div>
+                        <div class="form-group">
+                          Contact:<input type="text" class="form-control" name="contact" placeholder="Contact no.">
+                        </div>
+                        <div class="form-group">
+                          Payment: Cash-on-delivery
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Order</button>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 col-xs-6">
+              <img src="img/womenoutfit9.jpg" alt="Leopard color chiffon" id="women">
+              <button class="btn btn-default nemow">Leopard color chiffon</button>
+              <button type="submit" class="btn btn-warning nem" data-toggle="modal" data-target="#order9">Order Now</button>
+              <!-- Modal -->
+              <div class="modal fade" id="order9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Leopard color chiffon</h4>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          Quantity:<select name="dropdown" id="#">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          Price: Rs 4,500
+                        </div>
+                        <div class="form-group">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="form-group">
+                          Shipping Location:<input type="text" class="form-control" name="location" placeholder="Location ? ">
+                        </div>
+                        <div class="form-group">
+                          Contact:<input type="text" class="form-control" name="contact" placeholder="Contact no.">
+                        </div>
+                        <div class="form-group">
+                          Payment: Cash-on-delivery
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Order</button>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <img src="img/womenoutfit10.jpg" alt="Check Shirt/Denim collar" id="women">
+              <button class="btn btn-default nemow">Check Shirt/Denim collar</button>
+              <button type="submit" class="btn btn-warning nem" data-toggle="modal" data-target="#order10">Order Now</button>
+              <!-- Modal -->
+              <div class="modal fade" id="order10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Check Shirt/Denim collar</h4>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          Quantity:<select name="dropdown" id="#">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          Price: Rs 2,500
+                        </div>
+                        <div class="form-group">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="form-group">
+                          Shipping Location:<input type="text" class="form-control" name="location" placeholder="Location ? ">
+                        </div>
+                        <div class="form-group">
+                          Contact:<input type="text" class="form-control" name="contact" placeholder="Contact no.">
+                        </div>
+                        <div class="form-group">
+                          Payment: Cash-on-delivery
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Order</button>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <img src="img/womenoutfit11.jpg" alt="korean long hoodie" id="women">
+              <button class="btn btn-default nemow">korean casual hoodie</button>
+              <button type="submit" class="btn btn-warning nem" data-toggle="modal" data-target="#order11">Order Now</button>
+              <!-- Modal -->
+              <div class="modal fade" id="order11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">korean casual hoodie</h4>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          Quantity:<select name="dropdown" id="#">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          Price: Rs 2,000
+                        </div>
+                        <div class="form-group">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="form-group">
+                          Shipping Location:<input type="text" class="form-control" name="location" placeholder="Location ? ">
+                        </div>
+                        <div class="form-group">
+                          Contact:<input type="text" class="form-control" name="contact" placeholder="Contact no.">
+                        </div>n
+                        <div class="form-group">
+                          Payment: Cash-on-delivery
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Order</button>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <img src="img/womenoutfit12.jpg" alt="Lahynch Hoodies" id="women">
+              <button class="btn btn-default nemow">Lahynch Hoodies</button>
+              <button type="submit" class="btn btn-warning nem"  data-toggle="modal" data-target="#order12">Order Now</button>
+              <!-- Modal -->
+              <div class="modal fade" id="order12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Lahynch Hoodies</h4>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          Quantity:<select name="dropdown" id="#">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          Price: Rs 1,500
+                        </div>
+                        <div class="form-group">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="form-group">
+                          Shipping Location:<input type="text" class="form-control" name="location" placeholder="Location ? ">
+                        </div>
+                        <div class="form-group">
+                          Contact:<input type="text" class="form-control" name="contact" placeholder="Contact no.">
+                        </div>
+                        <div class="form-group">
+                          Payment: Cash-on-delivery
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Order</button>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+  </div>
+</div>
+
+ <!-- Hero Section -->
+  <div class="container">
+    <h2 class="wow flipInX" data-wow-delay=".2s" style="color: #1abc9c;">Featured Products</h2>
+    <div class="row">
+      <div class="col-xs-6 col-md-3 wow fadeInLeft">
+        <a href="#" class="thumbnail">
+          <img src="img/womenoutfit01.jpg" alt="European style" height="inherit;">
+          </a>
+          <div class="caption">
+            <h4>New European style</h4>
+          </div>
+        </div>
+      <div class="col-xs-6 col-md-3 wow fadeInUp">
+        <a href="#" class="thumbnail">
+          <img src="img/womenoutfit02.jpg" alt="Casual shirt tops blouse long sleeve V-Neck slim office style">
+        </a>
+        <div class="caption">
+            <h4>Casual shirt tops blouse long sleeve V-Neck slim office style</h4>
+          </div>
+      </div>
+      <div class="col-xs-6 col-md-3 wow fadeInUp">
+        <a href="#" class="thumbnail">
+          <img src="img/womenoutfit03.jpg" alt="high end woman suit long style jacket" id="salomon">
+        </a>
+        <div class="caption">
+            <h4>High end woman suit long style jacket</h4>
+          </div>
+      </div>
+      
+      <div class="col-xs-6 col-md-3 wow fadeInRight">
+        <a href="#" class="thumbnail">
+          <img src="img/womenoutfit04.jpg" alt="casual country clothing">
+        </a>
+        <div class="caption">
+            <h4>Casual country clothing</h4>
+          </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <br>
+
+
+
+  <!-- parallax -->
+  <div class="container-fluid parallax-window real" data-parallax="scroll" data-image-src="img/womenoutfit00.jpg">
+    
+  
+  </div>
+<!-- end of parallax -->
+
+
+
+  
+  <div class="container-fluid last" id="contact">
+    <div class="row">
+    <h4 align="center">Contact us<br></h4>
+    <div class="dv"></div>
+    <div class="col-md-6 col-xs-12 lastbord">
+      <h6><form action="" class="farum">
+      <input type="text" placeholder="Name" class="form-control" ><br>
+        <input type="email" placeholder="Email" class="form-control"><br>
+        <span class="pan">Message:</span>
+        <textarea name="message" id="" class="form-control"></textarea>
+        <br><br>
+        <button type="button" class="btn btn-primary">Submit</button>
+        <button type="button" class="btn btn-danger ">Reset</button>
+      </form>
+    </div>
+    <div class="col-md-6 col-xs-12">
+        <div>
+          <img src="img/Capture1.jpg" alt="" class="dimag">
+        </div>
+    </div>
+    </div>
+  </div>
+  <!--footer start-->
+      <footer>
+          <div class="text-center lastai">
+              &#9400; 2015 - Online shop
+                  <a href="#point" style="color: white;">Go To the Top<i class="fa fa-angle-up"></i> </a>
+          </div>
+      </footer>
+      <!--footer end-->
+    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+      
+      
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+              <script>
+                  new WOW().init();
+              </script>
+
+              <script>
+                  $('a').click(function(){
+                  $('html, body').animate({
+                      scrollTop: $( $.attr(this, 'href') ).offset().top
+                  }, 500);
+                  return false;
+              });
+              </script>
+
+              
+  </body>
+</html>

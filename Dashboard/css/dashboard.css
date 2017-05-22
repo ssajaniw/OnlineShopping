@@ -1,0 +1,80 @@
+nav.top{
+	background-color: #e67e22;
+}
+#white{
+	color: white;
+}
+
+.glyphicon-home{
+	color: #ecf0f1;
+	margin-right: 10px;
+}
+
+.glyphicon-search{
+	color: #ecf0f1;
+}
+.glyphicon-cog{
+	padding-right: 5px;
+	color: white;
+	height: 10px;
+}
+
+.first ul li a:hover{
+	background-color: #3498db;
+}
+
+/* CSS for Vertical Menu */
+
+
+ul,li{
+	margin: 0px;
+	padding: 0px;
+}
+
+.toolgroup,.toolgroup li ul {
+	padding: 0px;
+	list-style-type: none;
+	width: 250px;
+	background: none;
+	border: 0px solid #34495e;
+}
+.toolgroup,.toolgroup li a{
+	color: black;
+}
+.toolgroup li,.toolgroup li ul li{
+	width: 100%;
+	position: relative;
+}
+.toolgroup li a,.toolgroup li ul li a{
+	padding: auto auto;
+	display: block;
+	border-bottom: 1px solid black;
+	color: black;
+}
+.toolgroup li ul {
+	display: none;
+	position: absolute;
+	left: 250px; top: 0px;
+}
+.toolgroup li:hover ul{
+	display: block;
+}
+.toolgroup li:hover ul li a{
+	color: red;
+	border-radius: 10px 10px;
+	padding: 10px 10px;
+	margin: 5px 5px;
+}
+
+form.one{
+	padding-right: 300px;
+}
+
+img.circus{
+	width: 200px;
+	height: 200px;
+	border-radius: 50% 50%;
+}
+
+
+
